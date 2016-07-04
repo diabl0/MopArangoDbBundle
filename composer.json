@@ -5,6 +5,10 @@
         {
             "name": "Andreas Streichardt",
             "email": "andreas.streichardt@gmail.com"
+        },
+        {
+            "name": "Krzysztof Szatanik",
+            "email": "chris.szatanik@gmail.com"
         }
     ],
     "type": "symfony-bundle",
@@ -14,7 +18,7 @@
     },
     "target-dir": "Mop/ArangoDbBundle",
     "require": {
-        "triagens/ArangoDb": ">=2.0.0",
-        "symfony/framework-bundle": ">=2.1.0"
+        "triagens/ArangoDb": "^3.0",
+        "symfony/framework-bundle": "^3.0"
     }
 }
